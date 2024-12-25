@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .pricing-table {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .pricing-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+        .pricing-card h3 {
+            color: #007BFF;
+            margin-bottom: 1rem;
+        }
+        .pricing-card p {
+            font-size: 1.2rem;
+            margin: 1rem 0;
+            color: #555;
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #007BFF;
+            margin: 1rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Pricing</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Choose the Perfect Plan for You</h2>
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <h3>Ironing</h3>
+                <p>Professional ironing for crisp, wrinkle-free clothes.</p>
+                <div class="price">$5 per 10 items</div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Washing</h3>
+                <p>Thorough washing to keep your clothes fresh and clean.</p>
+                <div class="price">$10 per 5 kg</div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="pricing-card">
+                <h3>Dry Cleaning</h3>
+                <p>Specialized dry cleaning for delicate fabrics.</p>
+                <div class="price">$15 per item</div>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: #0056b3; color: white; padding: 1rem; text-align: center; margin-top: 2rem;">
+        <p>&copy; 2024 Laundry Services. All Rights Reserved.</p>
+        <p>
+            Follow us on: 
+            <a href="https://facebook.com" target="_blank" style="color: #FFD700; text-decoration: none;">Facebook</a> | 
+            <a href="https://twitter.com" target="_blank" style="color: #FFD700; text-decoration: none;">Twitter</a> | 
+            <a href="https://instagram.com" target="_blank" style="color: #FFD700; text-decoration: none;">Instagram</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
